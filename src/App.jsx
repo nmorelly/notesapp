@@ -132,12 +132,12 @@ export default function App() {
               />
 
               <Button type="submit" variation="primary">
-                Create Note
+                Create Poop
               </Button>
             </Flex>
           </View>
           <Divider />
-          <Heading level={2}>Current Notes</Heading>
+          <Heading level={2}>Current Poops</Heading>
           <Grid
             margin="3rem 0"
             autoFlow="column"
@@ -172,7 +172,7 @@ export default function App() {
                   variation="destructive"
                   onClick={() => deleteNote(note)}
                 >
-                  Delete note
+                  Delete poop
                 </Button>
               </Flex>
             ))}
